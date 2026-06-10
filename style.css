@@ -1,4 +1,147 @@
-.cabecalho{
-
-    
+.cabecalho {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
+
+body {
+    background: #f5f5f5;
+}
+
+header {
+    background: #efe9d7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo h1 {
+    color: #48773b;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d2f6f;
+    font-weight: bold;
+    border: 3px solid #1d2f6f;
+    padding: 10px 25px;
+}
+
+nav button {
+    background: #12a844;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+    .banner {
+        background-image: url("imagens/campo.jpg");
+        background-size: cover;
+        background-position: center;
+
+        height: 500px;
+
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+    }
+
+    .banner-texto h2 {
+        font-size: 90px;
+        color: black;
+    }
+
+    .banner-texto h3 {
+        font-size: 40px;
+    }
+
+    .banner-texto span {
+        background: #ece6b7;
+        padding: 10px 40px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .conteudo {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+    }
+
+    .menu-lateral {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu-lateral button {
+        width: 250px;
+        padding: 15px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .verde {
+        background: #12a844;
+        color: white;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .grafico img {
+        width: 450px;
+    }
+
+    .contato {
+        background: #00331e;
+        color: white;
+
+        width: 400px;
+
+        margin: 40px;
+
+        padding: 30px;
+
+        border-radius: 10px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    input,
+    textarea {
+        padding: 10px;
+    }
+
+    form button {
+        background: #f4d97c;
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+
+
+        
+    }
